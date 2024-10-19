@@ -1,2 +1,16 @@
+
+# Random Password Generator
+
+import random
+
 cap_alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 sml_alpha = "abcdefghijklmnopqrstuvwxyz"
+num = "0123456789"
+spl_char = "!@#$%^&*/-+?|<>:;,."
+
+
+mix = cap_alpha + sml_alpha + num + spl_char
+length = 8
+
+password = "".join(random.sample(mix,length))
+
