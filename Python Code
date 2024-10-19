@@ -14,3 +14,4 @@ length = 8
 
 password = "".join(random.sample(mix,length))
 
+print(f"You can use this password \n{password}")
